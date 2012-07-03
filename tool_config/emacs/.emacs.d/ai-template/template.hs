@@ -3,7 +3,7 @@
 ***********************************
  %file% - ????
  
-   Copyright (C) %cyear% rakuten 
+   Copyright (C) %cyear%  
      by %name% <%mail%> 
      Date : %cdate%
 ***********************************
