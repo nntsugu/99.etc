@@ -1,0 +1,3 @@
+;; -*- mode: emacs-lisp -*-
+;; History entries used for anything adaptive display.
+(setq anything-c-adaptive-history (quote ((buffer ("*compilation*" ("" . 1)) ("*GNU Emacs*" ("" . 1)) ("*WoMan-Log*" ("an" . 1))) (file ("/usr/local/monitor/vulture/conf/rule.yaml" ("rule" . 1)) ("/home/hirkubota/study/social_okashi/initdb.bash" ("initdb" . 1)) ("~/.emacs" ("" . 4))))))
