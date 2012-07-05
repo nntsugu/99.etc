@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+for i in $@
+do
+    tmux split-window -v 
+    tmux send-keys "ssh $i" C-m
+    tmux select-layout main-horizontal
+done
+
