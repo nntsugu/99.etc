@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-tmux new-window -n $@ "exec ssh $@"
-
+#tmux new-window -n $@ "exec ssh $@"
+tmux new-window -n $@ "exec ssh $(aws ec2 describe-instances |jq -r --arg taghostname $1 '.Reservations[].Instances[] | select( .Tags[].Value == $taghostname ) | .NetworkInterfaces[].PrivateIpAddress')"
